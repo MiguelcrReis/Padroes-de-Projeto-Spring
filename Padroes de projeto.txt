@@ -1,0 +1,35 @@
+~~~~ PADRÕES DE PROJETO ~~~~
+São soluções consolidadas para problemas recorrentes no 
+desenvolvimento e manutenção de software orientado a objetos.
+(ler livro Design Patterns of Reusable Object-Oriented Software)
+
+### Categorias:
+
+# Padrões Criacionais: Abstract Factory, Builder, Factory Method,
+Prototype, *Singleton*.
+<<Singleton>> Permitir a criação de uma única instância de uma classe
+e fornecer um modo para recuperá-la.
+
+# Padrões Comportamentais: Chain of Responsability, Iterator, 
+Observer, *Strategy*, Template Method.
+<<Strategy>> Simplificar a variação de algoritimos para a resolução de
+um mesmo problema.
+
+# Padrões Estruturais: Adpter, Bridge, Composite, Decorator, *Facade*,
+Flyweight, Proxy. 
+<<Facade>> Promover uma interface que reduz a complexidade nas integrações
+com subsistemas.
+
+     ### Spring Framework ###
+Explorando alguns padrões de projetos com Spring:
+
+*Singleton: @Bean e @Autowired;
+
+*Strategy: @Service e @Repository;
+
+*Facade: Construiremos uma API REST com o mesmo objetico desse padrão, abstrair a
+complexidade das seguintes integrações: Spring Data JPA e ViaCEP (Feign).
+
+### Pesquisar sobre inversão de controles - @Autowride ###
+//TODO e //FIXME
+#Pesquisar "java design patterns github" e "java design patterns examples"
